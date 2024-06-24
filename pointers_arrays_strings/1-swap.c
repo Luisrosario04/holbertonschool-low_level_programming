@@ -2,8 +2,11 @@
 
 /**
  * swap_int- Swap the values of two integers
- * @int a;
- * @int b;
+ *
+ * @int a; variable 1
+ *
+ * @int b; variable 2
+ *
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
