@@ -1,26 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_rev - prints a string in reverse, followed by a new line
- * @s: string to be printed
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
  */
-void print_rev(char *s)
+int main(void)
 {
-	int i, j, len;
+	int i;
 
-	i = 0;
-
-	while (s[i] != '\0')
+	for (i = 97; i < 123; i++)
 	{
-		i++;
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
 	}
-
-	len = i;
-
-	for (j = len - 1; j >= 0; j--)
-	{
-		_putchar(s[j]);
-	}
-
-	_putchar('\n');
+	putchar('\n');
+	return (0);
 }
