@@ -3,9 +3,9 @@
 /**
  * swap_int- Swap  integers using pointers
  *
- * @int a; interger
+ * @a: 98
  *
- * @int b; interger
+ * @b: 42
  *
  * Return: Always 0.
  */
@@ -16,5 +16,5 @@ void swap_int(int *a, int *b)
 	 x = *a;
 	 *a = *b;
 	 *b = x;
-	return;
+
 }
