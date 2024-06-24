@@ -2,7 +2,7 @@
 
 /**
  * _reset to 98- Update de value it points to
- *@n: pointer
+ *@n: 98
  * Return: Always (0)
  */
 
