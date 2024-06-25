@@ -1,22 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_rev - Prints the alphabet without q and e.
- *
- * Return: Always 0 (Success)
+ * print_rev - print a string
+ * @s:pointer char
+ * return:void
  */
-int main(void)
+void print_rev(char *s)
 {
-	int i;
+	int i, n;
 
-	for (i = 97; i < 123; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
-		}
+		continue;
 	}
-	putchar('\n');
-	return (0);
+	n = i - 1;
+	for (i = n; i >= 0 ; i--)
+	{
+		_putchar(s[i]);
+	}
+_putchar('\n');
+return;
 }
