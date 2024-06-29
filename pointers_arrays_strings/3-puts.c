@@ -1,11 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * _puts-Prints a string
- *@str: pointer char
- *
- * Return: Alwayas 0.
+ * _puts - print a string
+ * @str:pointer char
+ * return:void
  */
 void _puts(char *str)
 {
@@ -13,8 +11,8 @@ void _puts(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		putchar(*str);
+		putchar(str[i]);
 	}
-	putchar('\n');
-	return ;
+putchar('\n');
+return;
 }
