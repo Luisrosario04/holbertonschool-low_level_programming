@@ -1,9 +1,11 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
- * _puts - print a string
- * @str:pointer char
- * return:void
+ * _puts-Prints a string
+ *@str: pointer char
+ *
+ * Return: Alwayas 0.
  */
 void _puts(char *str)
 {
@@ -11,8 +13,8 @@ void _puts(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		putchar(*str);
 	}
-_putchar('\n');
-return;
+	putchar('\n');
+	return ;
 }
