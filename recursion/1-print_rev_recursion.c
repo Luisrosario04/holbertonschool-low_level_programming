@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- *_print_rev_recursin - print strings in reverse.
+ *_print_rev_recursion - print strings in reverse.
  *@s: char string
  *
  */
+
 void _print_rev_recursion(char *s)
 {
 	if (*s)
